@@ -1,1 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Teacher Login</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>👨‍🏫 Teacher Login Portal</h1>
+
+<div class="card">
+
+<form action="TeacherLoginServlet" method="post">
+
+    <input type="text"
+           name="username"
+           placeholder="Enter Teacher Username"
+           required>
+
+    <input type="password"
+           name="password"
+           placeholder="Enter Password"
+           required>
+
+    <button type="submit">Login</button>
+
+</form>
+
+<br>
+
+<a href="index.jsp">Back To Home</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
